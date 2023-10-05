@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.yummy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:6:5-125:19
+12        android:allowBackup="true"
+12-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\ITECH\.gradle\caches\transforms-3\c61287263f7ce0bc369b924eb1beec7d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Yummy" >
+22-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:14:9-43
+23        <activity
+23-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:16:9-18:40
+24            android:name="com.example.yummy.Lunch"
+24-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:17:13-34
+25            android:exported="false" />
+25-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:19:9-21:40
+27            android:name="com.example.yummy.Coleslaw"
+27-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:20:13-37
+28            android:exported="false" />
+28-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:21:13-37
+29        <activity
+29-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:22:9-24:40
+30            android:name="com.example.yummy.Spaghetti"
+30-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:23:13-38
+31            android:exported="false" />
+31-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:24:13-37
+32        <activity
+32-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:25:9-27:40
+33            android:name="com.example.yummy.Burger"
+33-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:26:13-35
+34            android:exported="false" />
+34-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:27:13-37
+35        <activity
+35-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:28:9-30:40
+36            android:name="com.example.yummy.pizza"
+36-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:29:13-34
+37            android:exported="false" />
+37-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:30:13-37
+38        <activity
+38-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:31:9-33:40
+39            android:name="com.example.yummy.Dinner"
+39-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:32:13-35
+40            android:exported="false" />
+40-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:33:13-37
+41        <activity
+41-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:34:9-36:40
+42            android:name="com.example.yummy.TomatoSoup"
+42-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:35:13-39
+43            android:exported="false" />
+43-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:36:13-37
+44        <activity
+44-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:37:9-39:40
+45            android:name="com.example.yummy.Turkey"
+45-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:38:13-35
+46            android:exported="false" />
+46-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:39:13-37
+47        <activity
+47-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:40:9-42:40
+48            android:name="com.example.yummy.GrilledChicken"
+48-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:41:13-43
+49            android:exported="false" />
+49-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:42:13-37
+50        <activity
+50-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:43:9-45:40
+51            android:name="com.example.yummy.GrilledSalmon"
+51-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:44:13-42
+52            android:exported="false" />
+52-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:45:13-37
+53        <activity
+53-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:46:9-48:40
+54            android:name="com.example.yummy.EgyFalafel"
+54-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:47:13-39
+55            android:exported="false" />
+55-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:48:13-37
+56        <activity
+56-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:49:9-51:40
+57            android:name="com.example.yummy.Breakfast"
+57-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:50:13-38
+58            android:exported="false" />
+58-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:51:13-37
+59        <activity
+59-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:52:9-54:40
+60            android:name="com.example.yummy.Flafel"
+60-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:53:13-35
+61            android:exported="false" />
+61-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:54:13-37
+62        <activity
+62-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:55:9-57:40
+63            android:name="com.example.yummy.Eggs"
+63-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:56:13-33
+64            android:exported="false" />
+64-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:57:13-37
+65        <activity
+65-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:58:9-60:40
+66            android:name="com.example.yummy.HotBuns"
+66-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:59:13-36
+67            android:exported="false" />
+67-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:60:13-37
+68        <activity
+68-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:61:9-63:40
+69            android:name="com.example.yummy.HomeFries"
+69-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:62:13-38
+70            android:exported="false" />
+70-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:63:13-37
+71        <activity
+71-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:64:9-66:40
+72            android:name="com.example.yummy.ColdDrinks"
+72-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:65:13-39
+73            android:exported="false" />
+73-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:66:13-37
+74        <activity
+74-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:67:9-69:40
+75            android:name="com.example.yummy.Yogurt"
+75-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:68:13-35
+76            android:exported="false" />
+76-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:69:13-37
+77        <activity
+77-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:70:9-72:40
+78            android:name="com.example.yummy.Smoothie"
+78-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:71:13-37
+79            android:exported="false" />
+79-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:72:13-37
+80        <activity
+80-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:73:9-75:40
+81            android:name="com.example.yummy.MilkShake"
+81-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:74:13-38
+82            android:exported="false" />
+82-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:75:13-37
+83        <activity
+83-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:76:9-78:40
+84            android:name="com.example.yummy.Lemonade"
+84-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:77:13-37
+85            android:exported="false" />
+85-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:78:13-37
+86        <activity
+86-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:79:9-81:40
+87            android:name="com.example.yummy.HotDrinks"
+87-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:80:13-38
+88            android:exported="false" />
+88-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:81:13-37
+89        <activity
+89-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:82:9-84:40
+90            android:name="com.example.yummy.TeaMix"
+90-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:83:13-35
+91            android:exported="false" />
+91-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:84:13-37
+92        <activity
+92-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:85:9-87:40
+93            android:name="com.example.yummy.ChocoLatte"
+93-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:86:13-39
+94            android:exported="false" />
+94-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:87:13-37
+95        <activity
+95-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:88:9-90:40
+96            android:name="com.example.yummy.ChaiLatte"
+96-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:89:13-38
+97            android:exported="false" />
+97-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:90:13-37
+98        <activity
+98-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:91:9-93:40
+99            android:name="com.example.yummy.HotCocoa"
+99-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:92:13-37
+100            android:exported="false" />
+100-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:93:13-37
+101        <activity
+101-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:94:9-96:40
+102            android:name="com.example.yummy.Signup"
+102-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:95:13-35
+103            android:exported="false" />
+103-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:96:13-37
+104        <activity
+104-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:97:9-99:40
+105            android:name="com.example.yummy.Desserts"
+105-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:98:13-37
+106            android:exported="false" />
+106-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:99:13-37
+107        <activity
+107-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:100:9-102:40
+108            android:name="com.example.yummy.Cake"
+108-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:101:13-33
+109            android:exported="false" />
+109-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:102:13-37
+110        <activity
+110-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:103:9-105:40
+111            android:name="com.example.yummy.Cinnamon"
+111-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:104:13-37
+112            android:exported="false" />
+112-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:105:13-37
+113        <activity
+113-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:106:9-108:40
+114            android:name="com.example.yummy.Muffin"
+114-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:107:13-35
+115            android:exported="false" />
+115-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:108:13-37
+116        <activity
+116-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:109:9-111:40
+117            android:name="com.example.yummy.Waffle"
+117-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:110:13-35
+118            android:exported="false" />
+118-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:111:13-37
+119        <activity
+119-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:112:9-120:20
+120            android:name="com.example.yummy.MainActivity"
+120-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:113:13-41
+121            android:exported="true" >
+121-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:114:13-36
+122            <intent-filter>
+122-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:115:13-119:29
+123                <action android:name="android.intent.action.MAIN" />
+123-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:116:17-69
+123-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:116:25-66
+124
+125                <category android:name="android.intent.category.LAUNCHER" />
+125-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:118:17-77
+125-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:118:27-74
+126            </intent-filter>
+127        </activity>
+128
+129        <meta-data
+129-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:122:9-124:57
+130            android:name="preloaded_fonts"
+130-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:123:13-43
+131            android:resource="@array/preloaded_fonts" />
+131-->C:\Users\ITECH\AndroidStudioProjects\yummy\app\src\main\AndroidManifest.xml:124:13-54
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+135            android:authorities="com.example.yummy.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ITECH\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ITECH\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ITECH\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ITECH\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+143        </provider>
+144    </application>
+145
+146</manifest>
